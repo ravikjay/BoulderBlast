@@ -11,11 +11,12 @@ using namespace std;
   // replace the string literal with a full path name to the directory,
   // e.g., "Z:/CS32/BoulderBlast/Assets" or "/Users/fred/cs32/BoulderBlast/Assets"
 
-const string assetDirectory = "Assets"; 
+const string assetDirectory = "/Users/ravikjay/Desktop/Assets";
 
 class GameWorld;
 
 GameWorld* createStudentWorld(string assetDir = "");
+
 
 int main(int argc, char* argv[])
 {
